@@ -1,8 +1,10 @@
 {
-  "README.md": "e0654201118830172fb2bf44ec033cdcbeda10f9148eddfbc3039826c758fc0e",
-  "SKILL.md": "f8205e0e07382a563a51827505d23e4d5f4f5494523010ef07c799e21d1c9bdf",
-  "agents/openai.yaml": "00a9c9a4ebbc76b7862a017c9e21e2440cab30e3450b8196ad55cc24bb7bfb99",
+  "README.md": "f652f6bcd45a85a4e633eddac73372d7d5a6f50bf3779f29e6523198b238abfa",
+  "SKILL.md": "8c0266ac6d14e31f1df29bd542f0ebf336931b6a7ebc8da4f8c5ee5bf4e91c51",
+  "agents/openai.yaml": "fb40c6ceaeb334200f43232558bed444701f9dcfbaaaa4c66f91a0f49bbd0338",
   "examples/input.md": "c55e2ca28be2d58bdda98185e9f5c6a2ccd4d5ffa97d86d7c27fb2013af09780",
   "examples/output.md": "26deb147451071c5df7d09a638c76ab77d1d59ecaf3a855513bb3ba625de989a",
-  "validation/RESULTS.md": "4540cb7552784c7d9839c8b43cf5ecff6ad7ed6a9d70f7d583e3bc058a62daad"
+  "examples/tracker-failure-cases.md": "3eb462bbcf6dc2df74f30b3c69bc30e17ad69f7feb8912db0a90c27733a41656",
+  "references/tracker-config.md": "1c6e49e22244576f5869b45bdf35a5ec6a59a1ebccd3da71102eeab9782fa5b6",
+  "validation/RESULTS.md": "16359c6c2de8aa37858b9babc4fdd504484a19341bd76f7e43089ea573935cec"
 }

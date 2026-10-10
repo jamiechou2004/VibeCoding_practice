@@ -1,4 +1,4 @@
 interface:
   display_name: "申请审核与交接"
-  short_description: "逐岗位核对申请授权与材料版本，整理审核包、提交证据及待同步事项"
-  default_prompt: "使用 $application-review-handoff 整理当前申请的逐岗审核与交接记录，列明授权、材料版本、提交证据和下一步。"
+  short_description: "从选岗匹配到逐岗审核提交，核验回执、指定主表回读与材料归档"
+  default_prompt: "使用 $application-review-handoff 按当前授权推进选岗、匹配评估、审核、提交核验、指定主表同步回读及归档，列明未完成项。"

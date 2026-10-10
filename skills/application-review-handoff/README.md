@@ -31,6 +31,12 @@ Copy this directory to your Codex skills directory as `application-review-handof
 
 Read [the sample input](examples/input.md), then compare the result with [the demo output](examples/output.md). All sample companies, role IDs and file versions are fictional.
 
+## Full workflow
+
+Select roles → verify official JDs and assess background fit → review materials and forms → submit within current per-role authorization → verify receipts → update the designated Google Sheet and read it back → archive locally.
+
+The latest explicit tracker designation takes precedence over old private configuration. Before any write, verify spreadsheet ID, gid, document/tab titles and headers; match by company plus role ID. An old selection list is never a fallback tracking sheet. See [private configuration contract](references/tracker-config.md) for synthetic configuration and [tracker failure exercise](examples/tracker-failure-cases.md) for observed decisions.
+
 ## What the skill produces
 
 - A separate record for each role, with the scope of user authorization.

@@ -34,3 +34,13 @@ The package was manually reviewed and scanned for local personal paths, contact 
 ## Release state
 
 The user authorized publishing this sanitized package to VibeCoding_practice. Release commit and remote verification are recorded in the portfolio maintenance record outside this package.
+
+## Designated tracker update validation
+
+The workflow now covers role selection and official-JD fit assessment through authorized submission, receipt verification, designated tracker readback and local archival. Detailed résumé preparation remains with application-helper when available.
+
+Re-ran quick_validate.py on the installed and public skills: both passed. Reviewed the new private configuration reference and verified installed, private snapshot and public copies of SKILL.md, agents/openai.yaml and references/tracker-config.md are identical. Public text was scanned for local personal paths, Google Sheet URLs and long identifier patterns with no matches.
+
+A separate offline evaluator exercises stale configuration, wrong gid, title/header mismatch, duplicate keys, write timeout with successful readback, mismatched readback, inaccessible main sheet and unverified official JD. The recorded outputs are in examples/tracker-failure-cases.md. No live application or Google Sheet operation is part of this validation.
+
+All eight recorded scenario decisions were reviewed and matched the stated constraints. This is synthetic behavioral validation, not a live integration test.
