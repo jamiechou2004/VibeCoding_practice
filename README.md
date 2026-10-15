@@ -13,3 +13,7 @@ Each skill includes usage examples and validation limits. The application handof
 ## Think First · 先想一步
 
 [Question-first AI collaboration](skills/think-first/) — invoke `$think-first`, or use the included ChatGPT custom instructions.
+
+## Think First · 先想一步
+
+[Question-first collaboration](skills/think-first/) — `$think-first` and a ChatGPT custom-instructions version.

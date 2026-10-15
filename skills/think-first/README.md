@@ -1,26 +1,22 @@
 # Think First · 先想一步
 
-A question-first collaboration skill that helps the user choose how to use AI before receiving an answer. It is a workflow preference, not evidence of improved learning outcomes.
+A question-first AI collaboration skill: form your own judgment, choose what help you need, then proceed one step at a time. No learning-outcome improvement has been measured.
 
 ## Use
 
 In a skill-compatible environment, install this folder as `think-first` and invoke `$think-first`.
 
-For ChatGPT, paste [CHATGPT-INSTRUCTIONS.md](CHATGPT-INSTRUCTIONS.md) into Settings → Personalization → Custom Instructions, preserving other existing preferences. Uploading SKILL.md or publishing it on GitHub alone does not configure ChatGPT. Project instructions can override global custom instructions; add the same preference to relevant project instructions when needed. This is model guidance, not a guaranteed enforcement mechanism.
+For ChatGPT, paste [CHATGPT-INSTRUCTIONS.md](CHATGPT-INSTRUCTIONS.md) into Settings → Personalization → Custom Instructions, preserving existing preferences. Publishing SKILL.md on GitHub does not automatically configure ChatGPT. Project instructions can override global instructions; add the same preference to relevant projects if needed. These are model instructions, not guaranteed enforcement.
 
-## Interaction example (illustrative)
+## Example
 
-User: Help me design a campus wayfinding system.
-
-Assistant: What specific navigation problem have you observed? What direction would you try first? Would you like questions or a small hint?
-
-The assistant waits for the user; it does not append a complete design proposal. The user may say “直接回答” to skip the questioning for that request.
+See the illustrative exchange in [SKILL.md](SKILL.md). The assistant asks about the user's observation, initial idea and desired help, then waits. Say “直接回答” to bypass questioning for one request, or “恢复先问后答” to restore it.
 
 ## Validation
 
-The skill frontmatter was validated with skill-creator quick_validate.py. A manual instruction review checked new-task questioning, avoiding repeated questions, support when the user is stuck, explicit direct-answer override and urgent-help exception. These are instruction checks, not a measured user study or an end-to-end model reliability test.
+Validated frontmatter using skill-creator quick_validate.py. Manual instruction review covers new-task questions, continuation without repeated intake, scaffolding when stuck, direct-answer override, and urgent-help exception. This is not a live model reliability test or learning study.
 
-## Official setup references
+## Official references
 
 - [ChatGPT Custom Instructions](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions)
-- [Project instructions and their scope](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
+- [Project instruction scope](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
